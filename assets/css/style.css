@@ -140,19 +140,16 @@ body.active {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: hsl(0, 0%, 98%);
+  background-color: var(--smokey-black);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(0, 0%, 80%);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(0, 0%, 70%);
+  background-color: var(--ultramarine-blue);
+  border-radius: var(--radius-16);
 }
 
 /* RESET */
